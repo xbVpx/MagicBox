@@ -1,5 +1,11 @@
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        MagicBox <Integer> magicBox = new MagicBox<Integer>(3);
+
+        magicBox.add(21);
+        magicBox.add(33);
+        magicBox.add(65);
+        magicBox.pick();
     }
 }
